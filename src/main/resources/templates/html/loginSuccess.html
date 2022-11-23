@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>로그인</title>
+<link rel="stylesheet" th:href="@{/css/board.css}" />
+</head>
+<body>
+	<div class="wrapper">
+		<div class="title">
+			<h1>로그인 성공</h1>
+		</div>
+		<div class="content">
+			<p>
+				<a th:href="@{/}">index</a>
+			<p>
+				<a th:href="@{/member}">member</a>
+			<p>
+				<a th:href="@{/manager}">manager</a>
+			<p>
+				<a th:href="@{/admin}">admin</a>
+		</div>
+	</div>
+</body>
+</html>
